@@ -4,7 +4,7 @@ import scrapy
 class BookSpider(scrapy.Spider):
     name = 'bookt'
 
-    start_urls = ['http://books.toscrape.com/catalogue/category/books/mystery_3/index.html']
+    start_urls = ['http://books.toscrape.com/']
 
     def parse(self, response):
         # follow links to author pages
